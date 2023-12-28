@@ -1,0 +1,13 @@
+div {
+    width: 200px;
+    height: 200px;
+    background-color: lightcoral;
+    overflow:auto
+}
+
+/* css overflow adalah styling yg mengatur perilaku elemen yg keluar dari wadah / parent nya
+1. visible : default, walau melebihi ttp terlihat
+2. auto : auto dari CSS
+3. hidden : konten yg keluar disembunyikan
+4. scroll : dibuatin scroll
+*/

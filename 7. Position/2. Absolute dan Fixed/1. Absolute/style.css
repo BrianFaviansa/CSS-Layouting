@@ -1,0 +1,33 @@
+/* absolute
+1. ketika elemen digerakkan menggunakan absolute, elemen akan maju 1 dimensi dan ruang yg sebelumnya ditempati oleh elemen tersebut dianggap tidak ada 
+2. ketika digerakkan menggunakan absolute, elemen akan bergerak relatif terhadap posisi dari elemen parent-nya, selama parent-nya juga memiliki posisi yg non-static (keluar dr flow / maju 1 dimensi jg) yg dicari adalah parent terdekat yg non-static
+*/
+
+.container {
+    width: 600px;
+    height: 650px;
+    border: 5px solid black;
+    position: relative;
+}
+
+div {
+    width: 200px;
+    height: 200px;    
+    margin:auto;
+}
+
+.satu {
+    background-color: lightgreen;
+}
+
+.dua {
+    background-color: violet;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.tiga {
+    background-color: gold;
+}
+

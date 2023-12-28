@@ -1,0 +1,29 @@
+/* z-index
+digunakan untuk mengatur tumpukan elemen yg non-static
+z-index: gunakan angka, semakin besar angkanya elemen semakin di depan
+jika hanya 1 yg diberi z-index maka dia akan yg terdepan dibanding lain yg tidak punya z-index, nilainya bisa negatif bisa positif
+*/
+
+div {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+
+.satu {
+    background-color: salmon;
+    z-index: 1;
+}
+
+.dua {
+    background-color: lightgreen;
+    top: 100px;
+    left: 100px;
+    z-index: 2;
+}
+
+.tiga {
+    background-color: royalblue;
+    top: 200px;
+    left: 200px;
+}

@@ -1,0 +1,38 @@
+.satu {
+    width: 200px;
+    height: 200px;
+    background-color: lightgreen;
+    margin: 50px auto;
+}
+
+.dua {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    margin: 50px auto 50px;
+}
+
+.tiga {
+    width: 50px;
+    height: 50px;
+    background-color:violet;
+    margin: 10px 20px 30px 40px;
+}
+
+
+/* overlapping margin
+kalau margin vertikal tidak saling menambahkan, namun margin terbesar yg diambil ukurannya antara margin atas dan bawahnya
+kalau margin horizontal margin akan ditambahkan margin kiri dan kanannya
+ */
+/*  negatif margin
+negatif margin akan membuat box bergerak berlawanan arah
+ */
+/* margin left & right auto
+blok konten akan berada di tengah halaman
+  */
+/* margin shorthand
+1. 1 value -> untuk ke 4 sisi
+2. 2 value -> value pertama untuk atas bawah, value kedua untuk kiri kanan
+3. 3 value -> value pertama atas, value kedua kiri kanan, value ketiga bawah
+4. 4 value -> mulai dari atas, searah jarum jam jadi atas, kanan, bawah, kiri
+*/

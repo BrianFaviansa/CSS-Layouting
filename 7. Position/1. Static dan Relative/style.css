@@ -1,0 +1,30 @@
+/* position
+dapat memindah elemen tanpa memengaruhi elemen lain di sekitarnya, tidak seperti margin yg memengaruhi letak elemen lain di sekitarnya
+1. static (default)
+2. relative (maju 1 dimensi) -> ketika menggerakkan dengan relative, ruang yg ditempati elemen tersebut sebelumnya masih ada, elemen akan bergerak relatif terhadap posisi awalnya, jika diberi top: 0 dan left:0 maka elemen tidak berubah posisinya, jarang dilakukan pemindahan posisi elemen menggunakan relative, biasa digunakan untuk membuat elemennya 1 dimensi / keluar dr flownya, yg biasa digunakan untuk memindah posisi elemen adalah value absolute
+3. absolute
+4. fixed
+meggunakan property position dengan value selain static akan membuat seolah-olah elemen tersebut memiliki dimensi yg berbeda dari elemen lainnya
+elemen yg non static dapat diberi position top, left, bottom, dan right
+*/
+
+.div {
+    width: 200px;
+    height: 200px;
+}
+
+.satu {
+
+    background-color: lightgreen;
+}
+
+.dua {
+    background-color: violet;
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+
+.tiga {
+    background-color: gold;
+}

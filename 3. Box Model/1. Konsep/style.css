@@ -1,0 +1,6 @@
+/* CSS Box Model
+1. margin -> area transparan di sekitar kotak (luar border)
+2. padding -> area transparan di dalam kotak (antara content dan border)
+3. border -> batas disekeliling content dan padding
+4. content -> konten sebenarnya di dalam box, dapat berupa teks ataupun gambar 
+ */

@@ -1,0 +1,55 @@
+/* float
+float adalah properti pada CSS untuk mengatur posisi sebuah elemen. Sebuah elemen dapat dipaksa untuk berada di kanan / kiri dari parent / pembungkusnya menggunakan properti ini
+value nya ada 3 : 
+1. none (default)
+2. left 
+3. right
+
+normal flow : box model (inline, block)
+out of flow : float
+
+float digunakan saat 
+1. text wrapping -> membuat teks mengelilingi gambar / elemen lain 
+2. image gallery -> membuat serangkaian gambar menjadi gallery
+3. multi-colum layout -> membuat halaman memiliki beberapa kolom
+dll
+*/
+
+.container {
+    width: 600px;
+    margin: auto;
+    border: 1px solid black;
+    padding: 5px;
+}
+.satu, .dua, .tiga {
+    width: 100px;
+    height: 100px;
+}
+
+.satu {
+    background-color: salmon;
+}
+
+.dua {
+    background-color: lightgreen;
+    float:right;
+}
+
+.tiga {
+    background-color: lightskyblue;
+}
+
+
+/* 
+cara menghentikan / membersihkan float
+1. menggunakan property overflow
+2. menggunakan <div> kosong
+3. menggunakan teknik micro clearfix : menggunakan di web microclearfix, memungkinkan kita tidak perlu menggunakan <div> kosong, konsep teknik ini menggunakan pseudo elemen
+
+cara yg paling tepat adalah menggunakan property clear pada CSS
+berfungsi untuk menghentikan / membersihkan float
+1. left
+2. right
+3. both
+cara membersihkannya menggunakan <div> kosong di akhir dari floatnya
+*/

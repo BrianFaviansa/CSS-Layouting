@@ -1,0 +1,51 @@
+.satu {
+    width: 300px;
+    height: 300px;
+    background-color: lightblue;
+    margin: 20px auto;
+    padding: 50px;
+    border-left: 3px dashed black;
+    border-right: 5px dotted blue;
+    border-top: 4px solid red;
+}
+
+/* .dua {
+    width: 194px;
+    height: 200px;
+    margin: 50px auto;
+    padding: 50px;
+    background-color: lightcoral; 
+    border: 3px solid black;
+} */
+/* 
+padding tidak bisa diberi nilai negatif, tidak seperti margin, padding tidak memiliki nilai auto, padding mempengaruhi ukuran elemen (menambah luas)
+*/
+/* 
+border
+border: width style color;
+border: 5px solid black;
+style -> solid, dotted, dashed, double
+border juga menambah ukuran elemen sesuai width nya
+*/
+/* box sizing
+auto kalkulasi tanpa harus manual jika box diberi margin dan padding, fitur baru di css3
+biasakan hanya mengatur lebar, karena jika tinggi diatur dapat menyebabkan overflow 
+box-sizing ini akan sangat membantu ketika belajar float nanti, dia akan menjaga ukuran tetap sesuai dengan width yg di deklarasikan berapapun padding dan bordernya
+*/
+
+div {
+    width: 600px;
+    margin: 10px auto;
+    box-sizing: border-box;
+}
+.tiga { 
+    background-color: skyblue;
+    padding: 10px;
+    border: 3px solid red;
+}
+
+.empat {
+    background-color: lightgreen;
+    padding: 30px;
+    border: 7px dashed orange;
+}
